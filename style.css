@@ -6,10 +6,13 @@ h1{
     font-size: 50px;
     padding-right: 5px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-change{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -38,4 +41,17 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exprerien-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.exprerien-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgb(231, 144, 43);
 }
